@@ -92,7 +92,10 @@
 .hero-btn:hover {
     color: rgb(255, 249, 249);
     font-family: Rancho;
-    font-size: 24px;
+    font-size: 3em;
+    width: 50%;
+    transition: 0.99s;
+    /* width: 230px; */
     background-color: unset;
 
 }

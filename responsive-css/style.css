@@ -100,7 +100,7 @@
 /* awesome-aroma */
 
 .awesome-aroma {
-    width: 1330px;
+    max-width: 1330px;
     /* height: 300px; */
     background: rgb(236, 234, 227);
     display: flex;
@@ -162,6 +162,22 @@
     width: 150px;
     height: 48px;
     background: rgb(227, 181, 119);
+    left: 600px;
+    position: relative;
+    top: -369px;
+    color: rgb(255, 255, 255);
+    font-family: Rancho;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px #5e5a5a;
+}
+.oup-coffe-btn:hover{
+   
+    border: 2px solid rgb(51, 26, 21);
+    border-radius: 5px;
+    width: 200px;
+    height: 68px;
+    transition: 0.5s;
+    background: rgb(21, 44, 51);
     left: 600px;
     position: relative;
     top: -369px;
@@ -266,8 +282,8 @@
 
 /* Footer */
 .footer {
-    background-image: url('images/more/13.jpg');
-    width: 1341px;
+    background-image: url('../images/more/13.jpg');
+    max-width: 1341px;
     height: 860px;
 }
 
@@ -402,6 +418,16 @@
     width: 503px;
     height: 48px;
     border-radius: 16px;
+    border: unset;
+    box-shadow: 1px 2px 1px 2px;
+    margin-bottom: 17px;
+}
+.textarea {
+    padding: 15px 12px; 
+    width: 520px;
+    height: 170px;
+    border-radius: 16px;
+    box-shadow: 1px 2px 1px 2px;
     border: none;
     margin-bottom: 17px;
 }

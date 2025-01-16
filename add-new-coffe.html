@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/add-coffe.css">
+    <link rel="stylesheet" href="responsive-css/add-coffe.css">
+    <link rel="stylesheet" href="responsive-css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,18 +27,101 @@
             <p class="nav-title"><img src="images/more/logo1.png" alt="" class="logo-1">Espresso Emporium</p>
 
         </nav>
-        <a href="index.html"><p class="b-t-h"><img src="images/more/left.png" alt="" class="icon"> Back to home</p></a>
+        <a class="anchor" href="index.html">
+            <p class="b-t-h"><img src="images/left-icon.png" alt="" class="icon"> Back to home</p>
+        </a>
         <div class="add-new-coffe">
             <h1 class="a-n-c">Add New Coffee</h1>
             <p class="a-n-description">It is a long established fact that a reader will be distraceted by the readable
                 content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
                 more-or-less normal distribution of letters, as opposed to using Content here.</p>
             <form action="" class="form">
-               .
-                <input type="submit" value="Add Coffee">
+                <div class="label-container">
+                    <div class="left-side">
+                        <label class="label" for="">
+                            Name</label>
+                        <input class="placeholder" type="text" placeholder="Enter coffee name">
+
+                        <label class="label" for="">
+                            Supplier</label>
+                        <input class="placeholder" type="text" placeholder="Enter coffee  supplier">
+
+                        <label class="label" for="">
+                            Category</label>
+                        <input class="placeholder" type="text" placeholder="Enter coffee Category">
+
+                    </div>
+                    <div class="right-side">
+                        <label class="label" for="">
+                            Chef</label>
+                        <input class="placeholder" type="text" placeholder="Enter coffee chef">
+
+                        <label class="label" for="">
+                            Taste</label>
+                        <input class="placeholder" type="text" placeholder="Enter coffee taste">
+
+                        <label class="label" for="">
+                            Details</label>
+                        <input class="placeholder" type="text" placeholder="Enter coffee details">
+
+                    </div>
+                </div>
+                <label id="label" for="">
+                    Photo</label><br>
+                <input id="placeholder" type="text" placeholder="Enter photo URL">
+                    <br>
+                <input class="add-coffee" type="submit" value="Add Coffee">
             </form>
         </div>
     </header>
+    <footer class="footer">
+        <div class="coffe-footer">
+            <div class="c-f">
+                <div class="footer-left">
+                    <img src="images/more/logo1.png" alt="" class="logo-footer">
+                    <h1 class="footer-left-title">Espresso Emporium</h1>
+                    <p class="footer-description">Always ready to be your friend. Come & Contact with us to share your
+                        memorable moments, to share with your best companion.</p>
+                    <div class="s-i">
+                        <a class="social-icon" href="https://facebook.com/siddikur2k22" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://twitter.com/siddikur2k22" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="https://instagram.com/siddikur2k22" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="https://linkedin.com/siddikur2k22" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <h2 class="footer-title">Get in Touch</h2>
+                    <div class="contact-icons">
+                        <a class="contact-icon" href="tel:+1234567890"><i id="f-i" class="fas fa-phone"></i> +123 456
+                            7890</a>
+                        <a class="contact-icon" href="mailto:example@email.com"><i id="f-i" class="fas fa-envelope"></i>
+                            coffestore@gmail.com</a>
+                        <a class="contact-icon" href="https://www.google.com/maps/place/Your+Location"
+                            target="_blank"><i id="f-i" class="fas fa-map-marker-alt"></i> 72, Wall street, King Road,
+                            Dhaka</a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="c-f">
+                <div class="footer-right">
+                    <h1 class="right">Contact With Us</h1>
+
+                    <form action="" class="footer-form">
+                        <input class="name" type="text" placeholder="Name">
+                        <input class="name" type="email" placeholder="Email">
+                        <textarea class="textarea" name="" id="" placeholder="Message" cols="30" rows="10"></textarea>
+                        <input class="send-message" type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </div> <small class="small"> Copyright Espresso Emporium ! All Rights Reserved</small>
+        <img src="images/more/24.jpg" alt="" class="footer-last-bg">
+
+    </footer>
 </body>
 
 </html>

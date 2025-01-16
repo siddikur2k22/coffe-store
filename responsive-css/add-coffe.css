@@ -177,6 +177,30 @@ input typeof[text] {
     background: rgb(210, 180, 140);
 }
 
+/* delet.html 404 page */
+
+.b-t-h-e {
+    color: rgb(55, 65, 81);
+    font-family: Rancho;
+    font-size: 30px;
+    text-align: center;
+}
+.icon-e {
+    position: relative;
+
+    top: 9px;
+}
+.anchor{
+    text-decoration: none;
+}
+.delet-page{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
 /* footer */
 .footer {
     background-image: url('../images/more/13.jpg');

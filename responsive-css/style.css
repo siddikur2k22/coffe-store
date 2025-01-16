@@ -252,6 +252,16 @@
     height: 40px;
     width: 40px;
 }
+.delete:hover{
+    position: relative;
+    top: 250px;
+    right: 200px;
+    height: 50px;
+    width: 50px;
+    transition: 0.5s;
+    background: red;
+    /* background: rgb(21, 44, 51); */
+}
 
 /* follow Page */
 
